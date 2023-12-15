@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Contact Us - Project Valhalla</title>
+  </head>
+  <body>
+    <header>
+      <h1>Project Valhalla</h1>
+      <p>Your Gateway to Extraordinary Journeys</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>
+          Reach out to us for inquiries, bookings, or leave us your feedback
+          below:
+        </p>
+
+        <form id="feedbackForm" action="submit_feedback.php" method="post">
+          <label for="feedback">Feedback:</label>
+          <textarea
+            id="feedback"
+            name="feedback"
+            rows="4"
+            cols="50"
+            placeholder="Enter your feedback here..."
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+
+        <div class="contact-info">
+          <p>Phone: +1 (555) 123-4567</p>
+          <p>Email: info@valhallaproject.com</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Project Valhalla. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
